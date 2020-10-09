@@ -3,6 +3,8 @@ main{width: 100vw; height: 100vh; text-align:center;
 
    .throw{color: white; margin-top: 50px; font-size: 25px;}
    h3{margin: 0;}
-   .news{width: 60%; position: relative; top: 120px; left: 25px;
-  text-align: center; color: white;} 
-.news li{list-style: square inside ; font-size: 15px;}
+   .news{width: 40%; height: 100px; position: relative; top: 120px; left: 25px;
+  text-align: center; 
+background-color: aliceblue; border-radius: 15px; box-shadow: 0px 1px 3px 0px black; } 
+.news li{list-style: square inside ; font-size: 10px;}
+.news span{font-size: 18px;}
