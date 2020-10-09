@@ -1,1 +1,8 @@
-main{width: 100%; text-align: center;}
+main{width: 100vw; height: 100vh; text-align:center;
+   background-image: url(../Profile.jpg); background-size: cover; }
+
+   .throw{color: white; margin-top: 50px; font-size: 25px;}
+   h3{margin: 0;}
+   .news{width: 60%; position: relative; top: 120px; left: 25px;
+  text-align: center; color: white;} 
+.news li{list-style: square inside ; font-size: 15px;}
