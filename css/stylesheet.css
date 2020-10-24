@@ -1,10 +1,18 @@
-main{width: 100vw; height: 100vh; text-align:center;
-   background-image: url(../Profile.jpg); background-size: cover; }
+body{background-image: url(../Profile.jpg); background-size: cover;}
 
-   .throw{color: white; margin-top: 50px; font-size: 25px;}
-   h3{margin: 0;}
-   .news{width: 40%; height: 100px; position: relative; top: 120px; left: 25px;
+header{font-size: 20px; width: 100vw; height: 70px; position: fixed; top: 0; 
+  background-color: rgba(255, 255, 255,0.8); color: black; text-align: center;}
+
+main{width: 100vw; height: 100vh; text-align:center;
+    }
+
+   .throw{color: white; margin-top: 100px; font-size: 25px;}
+
+  
+   .news{width: 40%; 
+    margin: 0 auto;
   text-align: center; 
 background-color: aliceblue; border-radius: 15px; box-shadow: 0px 1px 3px 0px black; } 
 .news li{list-style: square inside ; font-size: 10px;}
 .news span{font-size: 18px;}
+.news h4{font-size: 20px; border-bottom: 1px solid black;}
