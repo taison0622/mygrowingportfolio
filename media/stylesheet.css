@@ -31,6 +31,7 @@
 }
 
 @media (max-width:670px){
+     .l-wrap{width: 74%;}
 .container{
     background: none;
     box-shadow: none;
