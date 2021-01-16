@@ -1,3 +1,9 @@
+
+window.onload=function(){
+  const spinner=document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+
 let i =1;
 var state ={count:i};
 var links = document.getElementById("links");
