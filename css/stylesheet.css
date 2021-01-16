@@ -46,7 +46,7 @@ header{ color:#949494;
     .next{width: 100%; vertical-align: middle;}
 
     /*背景*/
-    .cover{ background-image: url(/items/back-image.png); background-size: cover; 
+    .cover{ background-image: url(./items/back-image.png); background-size: cover; 
             background-position: center; 
             width: 100vw; height: 100vh;
             position: fixed; top: 0; z-index: 0; }
