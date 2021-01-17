@@ -135,7 +135,7 @@ $(function(){
                                 if(selfWrap.is(':animated')){
                                     clearInterval(setTimer);
                                 }
-                                this.pageX = (isTouch ? Event.changedTouches[0].pageX : e.pageX);
+                                this.pageX = (isTouch ? event.changedTouches[0].pageX : e.pageX);
                                 this.leftBegin = parseInt($(this).css('left'));
                                 this.left = parseInt($(this).css('left'));
                                 this.touched = true;
@@ -149,8 +149,8 @@ $(function(){
                                 if(selfWrap.is(':animated')){
                                     clearInterval(setTimer);
                                 }
-                                this.left = this.left - (this.pageX - (isTouch ? Event.changedTouches[0].pageX : e.pageX) );
-                                this.pageX = (isTouch ? Event.changedTouches[0].pageX : e.pageX);
+                                this.left = this.left - (this.pageX - (isTouch ? event.changedTouches[0].pageX : e.pageX) );
+                                this.pageX = (isTouch ? event.changedTouches[0].pageX : e.pageX);
                                 $(this).css({left:this.left});
                             },
                             'touchend mouseup mouseout': function(e){
@@ -212,4 +212,5 @@ $(function(){
         });
      
 
+        
         
