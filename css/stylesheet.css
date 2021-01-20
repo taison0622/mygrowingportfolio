@@ -315,6 +315,10 @@ header{ color:#949494;
         background-color: rgba(255, 255, 255, 0.8); 
         border: solid 2px rgb(224, 224, 224);
     }
+
+    .dairyPhoto{width: 20%;}
+    .dairyPhoto img{width: 100%;}
+
     /*矢印の形*/
     .slider,.slider2{ 
         position: absolute;
