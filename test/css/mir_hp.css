@@ -7,18 +7,18 @@ html{background: #000000;}
   
 @font-face{
     font-family: 'segoe_fake';
-    src: url('./fonts/SEGOEPR.TTF') ;
+    src: url('../fonts/SEGOEPR.TTF') ;
   }
 
   
 @font-face{
     font-family: 'manifest';
-    src: url('./fonts/MANIFESTO.ttf') 
+    src: url('../fonts/MANIFESTO.ttf') 
   }
 
 @font-face{
     font-family: 'bulter';
-    src: url('./fonts/Butler_Light.otf');
+    src: url('../fonts/Butler_Light.otf');
 }
 
 body{background:#dadada ; margin: 0;}
