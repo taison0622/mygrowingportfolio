@@ -2,7 +2,7 @@ html{background: #000000;}
 
 @font-face{
     font-family: 'rafale-ru';
-    src: url('./fonts/rafale_ru.woff')format('woff')
+    src: url('../fonts/rafale_ru.woff')format('woff')
   }
   
 @font-face{
