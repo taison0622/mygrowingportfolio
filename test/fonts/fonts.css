@@ -1,0 +1,26 @@
+/*font-family: 'Lobster', cursive;*/
+
+
+@font-face{
+    font-family: 'manifest';
+    src: url('manifesto_mir.woff') format('woff');
+  }
+  .font{
+    font-family: 'manifest';
+  }
+
+@font-face{
+    font-family: 'rafale-ru';
+    src: url('rafale-ru.woff') format('woff');
+  }
+  .font{
+    font-family: 'rafale-ru';
+  }
+
+  @font-face{
+    font-family: 'segoe_fake';
+    src: url('SEGOEPR.TTF') ;
+  }
+  .font{
+    font-family: 'segoe_fake';
+  }
