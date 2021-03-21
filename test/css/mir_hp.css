@@ -396,13 +396,13 @@ h5{font-size: 13px; height: 12px;}
     box-shadow: inset 3px 3px 6px #bfbfbf, 
     inset -2px -3px 4px #e9e9e9;}
 
-.acc_info{top: -40px;}
-.acc_item.is_open .acc_info{top: -40px;}
+.acc_info{top: -40px!important;}
+.acc_item.is_open .acc_info{top: -40px!important;}
 .di_img{width: 55%;}
-.ne_p{font-size: 10px; left: 28%;}
-.grad{left: 27%;}
-.acc_single_title{font-size: 11px;}
-.acc_single_title::after{right: 7px; top: 35%;} 
+.ne_p{font-size: 10px!important; left: 28%!important;}
+.grad{left: 27%!important;}
+.acc_single_title{font-size: 11px!important;}
+.acc_single_title::after{right: 7px!important; top: 35%!important;} 
 
 .li_day p{padding: 8px;}
 .li_day span{font-size: 13px;}
