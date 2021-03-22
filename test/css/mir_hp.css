@@ -156,7 +156,7 @@ body{background:#dadada ; margin: 0;}
         animation: grad_ac2 0.5s linear 1 forwards;
         height: 50px;
         background: linear-gradient(0deg,
-         #dadada, transparent);
+         #dadada, #dadada00);
         position: absolute;
         width: 71%; top: -25px;
         left: 14%;}
