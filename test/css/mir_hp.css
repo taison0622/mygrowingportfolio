@@ -21,6 +21,19 @@ html{background: #000000;}
     src: url('../fonts/Butler_Light.otf');
 }
 
+@keyframes grad_ac1{
+    0%{   background: linear-gradient(0deg,
+        #dadada, transparent);}
+    100%{   background: linear-gradient(0deg,
+        #dadada00, transparent);}
+}
+@keyframes grad_ac2{
+    0%{    background: linear-gradient(0deg,
+        #dadada00, transparent);}
+    100%{ background: linear-gradient(0deg,
+        #dadada, transparent);}
+}
+
 body{background:#dadada ; margin: 0;}
 
 .swiper-container{width: 100%; height: 850px;}
@@ -66,7 +79,7 @@ body{background:#dadada ; margin: 0;}
     max-height: 0; overflow: hidden;
     transition: max-height .3s ease-in-out;}
 .acc_item.is_open .acc_info{max-height: 150px;position: relative; top: -65px;}
-.acc_item.is_open .grad{display: none; }
+.acc_item.is_open .grad{animation: grad_ac1 0s linear 1 normal forwards;}
 .acc_item.is_open .acc_ticket{max-height: 150px;position: relative; top: -5px;}
 .acc_item.is_open .acc_more{max-height: 150px;position: relative; top: 0px;}
 
@@ -102,7 +115,7 @@ body{background:#dadada ; margin: 0;}
     width: 768px;}
     h2{
         width: 100%;
-        font-family: inherit;
+        font-family: 'rafale-ru';
         color: #464646;
         font-size: 46px;
         top: 45%;
@@ -140,6 +153,7 @@ body{background:#dadada ; margin: 0;}
     position: relative;
     font-family: 'Shippori Mincho', serif;}
     .grad{
+        animation: grad_ac2 0.5s linear 1 forwards;
         height: 50px;
         background: linear-gradient(0deg,
          #dadada, transparent);
