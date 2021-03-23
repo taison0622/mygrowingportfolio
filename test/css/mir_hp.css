@@ -1,5 +1,3 @@
-html{background: #000000;}
-
 @font-face{
     font-family: 'rafale-ru';
     src: url('../fonts/rafale_ru.woff')format('woff')
@@ -125,7 +123,7 @@ body{background:#dadada ; margin: 0;}
         font-size: 30px; font-family: 'segoe_fake'; 
         text-align: center; margin: 0; padding: 25px 0;}
 
-    h4{font-size: 25px; font-family: 'manifest'; color: azure; padding-top: 60px;}
+    h4{font-size: 40px; font-family: 'manifest'; color: azure; padding-top: 60px;}
     h5{
         font-size: 18px; font-family: 'Shippori Mincho', serif;
         font-weight: lighter; height: 40px;}
@@ -191,9 +189,14 @@ body{background:#dadada ; margin: 0;}
 .mo_item_sp{
     display: none;
     box-shadow: 0px 1px 12px 0px rgb(88, 88, 88);
-    border-radius: 45px;
+    border-radius: 28px;
     border: solid rgba(230,230,230,0.8) 2px;
     margin: 50px 0;}
+
+.movie h3{
+    width: 65%;
+    margin: 0 auto;}
+
 .disc{width: 65%; margin: 0 auto; height: 500px;}
 .disc .acc_content{position: relative;}
 .di_song{padding-left: 22px;}
@@ -264,8 +267,10 @@ body{background:#dadada ; margin: 0;}
 footer{width: 100%; text-align: center; margin: 85px 0;padding-bottom: 50px;}
 footer p{font-family: 'segoe_fake'; margin: 0; }
 .f_mail{background: #000000;padding: 15px 0;}
-.f_mail a{text-decoration: none; }
-footer a{text-decoration: none;color: #dadada;}
+
+footer{width: 100%; text-align: center; margin: 85px 0;padding-bottom: 50px;color: #dadada;}
+footer p{margin: 0;}
+.f_mail{background: #000000;padding: 15px 0;}
 .f_sns{
     width: 50%;
     display: flex;
