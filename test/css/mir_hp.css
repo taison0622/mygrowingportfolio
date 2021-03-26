@@ -412,6 +412,7 @@ footer p{margin: 0;}
     .news, .live, .movie, .disc, .goods, footer {
         padding: 7px 0;}
     .ne_img{
+        -webkit-appearance:none; -webkit-text-size-adjust:100%;
         border-radius: 12px;
         background: #dadada;
         box-shadow: inset 3px 3px 6px #bfbfbf, 
