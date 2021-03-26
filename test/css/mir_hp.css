@@ -32,7 +32,7 @@
         #dadada, transparent);}
 }
 
-body{background:#dadada ; margin: 0;}
+body{background:#dadada ; margin: 0; -webkit-appearance:none; -webkit-text-size-adjust:100%;}
 
 .swiper-container{width: 100%; height: 850px;}
 
@@ -137,8 +137,9 @@ body{background:#dadada ; margin: 0;}
     font-family: 'rafale-ru'; font-size: 20px;
     }
 
-.news{width: 65%; margin: 85px auto}
+.news{width: 65%; margin: 85px auto -webkit-appearance:none; -webkit-text-size-adjust:100%;}
 .ne_img{
+    -webkit-appearance:none; -webkit-text-size-adjust:100%;
     width: 10%; margin: 20px; 
     border-radius: 20px;
     background: #dadada;
@@ -151,6 +152,7 @@ body{background:#dadada ; margin: 0;}
     position: relative;
     font-family: 'Shippori Mincho', serif;}
     .grad{
+        -webkit-appearance:none; -webkit-text-size-adjust:100%;
         animation: grad_ac2 0.5s linear 1 forwards;
         height: 50px;
         background: linear-gradient(0deg,
