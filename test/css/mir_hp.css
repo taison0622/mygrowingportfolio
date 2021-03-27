@@ -140,7 +140,7 @@ body{background:#dadada ; margin: 0; -webkit-appearance:none; -webkit-text-size-
 .news{width: 65%; margin: 85px auto -webkit-appearance:none; -webkit-text-size-adjust:100%;}
 .ne_img{
     -webkit-appearance:none; -webkit-text-size-adjust:100%;
-    width: 10%; margin: 20px; 
+    width: 10%!important; margin: 20px; 
     border-radius: 20px;
     background: #dadada;
     box-shadow: inset 6px 6px 7px #bfbfbf, 
@@ -156,7 +156,7 @@ body{background:#dadada ; margin: 0; -webkit-appearance:none; -webkit-text-size-
         animation: grad_ac2 0.5s linear 1 forwards;
         height: 50px;
         background: linear-gradient(0deg,
-         #dadada, #dadada00);
+         #dadada, #dadada00)!important;
         position: absolute;
         width: 71%; top: -25px;
         left: 14%;}
