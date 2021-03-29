@@ -1,7 +1,13 @@
+window.onload=function(){
+    const spinner=document.getElementById('loading');
+    spinner.classList.add('loaded');
+}
+
 //ヘッダーの位置を取得
-let navPos = jQuery('.swiper-container').offset().top;
+let navPos = jQuery('.dummy').offset().top;
 //ヘッダーの高さを取得
-let navHei = jQuery('.swiper-container').outerHeight();
+let navHei = jQuery('.dummy').outerHeight();
+let conceptHei = jQuery('.concept').outerHeight();
 
 //スクロールアクション実行でスクロールTopが850pxを超えたら
 jQuery(window).on('scroll',function(){
@@ -11,9 +17,15 @@ jQuery(window).on('scroll',function(){
 
     else{
         jQuery('body').css('padding-top',0);
-        jQuery('#head-act').removeClass('m_fixed');
-    }
-});
+        jQuery('#head-act').removeClass('m_fixed');}
+	if(conceptHei<jQuery(this).scrollTop()){
+		jQuery('.concept').addClass('c_on');}
+	else{jQuery('.concept').removeClass('c_on');}
+	if(conceptHei+200<jQuery(this).scrollTop()){
+		jQuery('.concept').removeClass('c_on');
+		jQuery('.concept').addClass('c_move');}
+	else{jQuery('.concept').removeClass('c_move');}
+	});
 
 const accTrigger =
 document.querySelectorAll('.ac_trigger');
@@ -50,14 +62,14 @@ $(function() {
 			'#sec5': 0,
 			'#sec6': 0,
             '#sec7': 0
-		};
+		}
 
 		let $globalNavi = new Array();
 
 		// 各要素のスクロール値を保存
 		for (let key in array) {
 			if ($(key).offset()) {
-				array[key] = $(key).offset().top - 80; // 数値丁度だとずれるので10px余裕を作る
+				array[key] = $(key).offset().top - 70; // 数値丁度だとずれるので10px余裕を作る
 				$globalNavi[key] = $('#header ul li a[href="' + key + '"]');
 			}
 		}
@@ -65,7 +77,7 @@ $(function() {
 		// スクロールイベントで判定
 		$(window).scroll(function () {
 			for (let key in array) {
-				if ($(window).scrollTop() > array[key] - 50) {
+				if ($(window).scrollTop() > array[key] - 10) {
 					$('#header ul li a').each(function() {
 						$(this).removeClass('active');
 					});
@@ -94,3 +106,14 @@ $(function() {
 	});
 });
 
+$(".d1").hover(function(){
+	jQuery(".pro_photo:nth-child(1)").addClass('pro_ac');
+	jQuery(".pro_itsu").addClass('pro_info');},
+	function(){jQuery(".pro_photo:nth-child(1)").removeClass('pro_ac');
+	jQuery(".pro_itsu").removeClass('pro_info');});
+
+$(".d2").hover(function(){
+	jQuery(".pro_photo:nth-child(2)").addClass('pro_ac');
+	jQuery(".pro_taison").addClass('pro_info');},
+	function(){jQuery(".pro_photo:nth-child(2)").removeClass('pro_ac');
+	jQuery(".pro_taison").removeClass('pro_info');});
