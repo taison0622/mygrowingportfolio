@@ -218,7 +218,7 @@ h1{
 
 .news{width: 65%; margin: 85px auto; padding-top: 120px;} 
 .ne_img{
-    width: 10%; margin: 20px; 
+    width: 10%; margin: 20px; height:45px;
     border-radius: 20px;
     background: #dadada;
     box-shadow: inset 6px 6px 7px #bfbfbf, 
