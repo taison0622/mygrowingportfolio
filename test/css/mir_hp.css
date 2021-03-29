@@ -501,7 +501,10 @@ h5{font-size: 13px; height: 12px;}
 .acc_item.is_open .acc_info{top: -40px!important;}
 .di_img{width: 55%;}
 .ne_p{font-size: 10px!important; left: 28%!important;}
-.grad{left: 27%!important;}
+.grad{
+    perspective: 1000;
+    left: 27%!important;top:-23px;
+    height:40px;}
 .acc_single_title{font-size: 11px!important;}
 .acc_single_title::after{right: 7px!important; top: 35%!important;} 
 
