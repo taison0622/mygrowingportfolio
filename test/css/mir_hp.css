@@ -61,10 +61,10 @@
     linear-gradient(120deg,#27272794,#000000e8),
     linear-gradient(180deg,#494949ea,#0f0f0f),
     linear-gradient(260deg,#3b3b3b,#5a5a5ae8);
-    transform: translateX(0%);
+    left:0%;
 }
 .loaded{
-    transform: translateX(-100%)!important;
+    left:100%;!important;
     transition: all 0.4s ease-in;}
 .load_item{
     font-family: 'Shippori Mincho';
