@@ -55,7 +55,7 @@
 #loading{
     color: #dadada;
     width: 100vw;height: 100vh;
-    position: absolute;top: 0;z-index: 9999;
+    position:absolute; top: 0;z-index: 9999;
     transition: all 0.5s ease-in-out;transition-delay: 2s;
     background:
     linear-gradient(120deg,#27272794,#000000e8),
