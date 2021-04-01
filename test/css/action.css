@@ -1,13 +1,21 @@
 @keyframes grad_ac1{
-    0%{   background: linear-gradient(0deg,
+    0%{ 
+        top: -25px;
+        background: linear-gradient(0deg,
         #dadada 10%, #dadada00 40%);}
-    100%{   background: linear-gradient(0deg,
+    100%{
+        top: 25px;
+        background: linear-gradient(0deg,
         #dadada00, #dadada00);}
 }
 @keyframes grad_ac2{
-    0%{    background: linear-gradient(0deg,
+    0%{ 
+        top: 25px;
+        background: linear-gradient(0deg,
         #dadada00, #dadada00);}
-    100%{ background: linear-gradient(0deg,
+    100%{ 
+        top: -25px;
+        background: linear-gradient(0deg,
         #dadada 10%, #dadada00 40%);}
 }
 @-webkit-keyframes grad_ac1{
