@@ -92,14 +92,14 @@ h1{
     cursor: pointer;
     position: relative;
     display: flex;
-    border-top: solid 1px rgb(48, 48, 48);}
+    border-top: solid 1px #a2a2a2;}
 
 .acc_single_title::after{
     content: ""; position: absolute;
     right: 80px; top: 45%;
     display: block; width: 8px;height: 8px;
-    border-top: solid 2px #4d4f50;
-    border-right: solid 2px #4d4f50;
+    border-top: solid 2px #a2a2a2;
+    border-right: solid 2px #a2a2a2;
 
     transform: translateY(-50%) rotate(135deg);
     transition: all 0.2s ease-in-out;
@@ -118,7 +118,7 @@ h1{
         width: 10%;
         border-radius: 5px;
         margin-left: 8px;
-        border: solid 1px #d4d4d4;}
+        }
 
 .acc_more{
     position: relative; top: 0px;
@@ -133,7 +133,7 @@ h1{
     margin: 0;
     position: relative;
     height: 50px;
-    border-bottom: solid 1px;}
+    border-bottom: solid 1px #a2a2a2;}
 .acc_item.is_open .acc_single_title::after{
     transform: translateY(-50%) rotate(315deg);}
 .acc_item.is_open .di_info{    max-height: 270px;}
@@ -212,7 +212,7 @@ h1{
 }
 
 .tab_info{
-    border-bottom: solid 1px rgb(61, 61, 61);
+    border-bottom: solid 1px #a2a2a2;
 }
 .li_day{
     text-align: center; padding: 15px 15px; 
@@ -276,8 +276,8 @@ h1{
     content: ""; position: absolute;
     left: 55px; top: 45%;
     display: block; width: 8px;height: 8px;
-    border-top: solid 2px #4d4f50;
-    border-right: solid 2px #4d4f50;
+    border-top: solid 2px #a2a2a2;
+    border-right: solid 2px #a2a2a2;
 
     transform: translateY(-50%) rotate(135deg);
     transition: all 0.2s ease-in-out;
