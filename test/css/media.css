@@ -1,0 +1,136 @@
+@media(max-width:1400px){
+    .news,.live,.movie,.disc,.goods,footer{padding: 60px 0;}
+    .profile h3{top: -1%;}
+    .acc_di_title{top: -45px; left: 20%;}
+    
+}
+
+
+@media(max-width:1170px){
+    main{top: 560px;}
+    footer{top:550px ;}
+    header img{width: 100%;}
+    #head-act{top: 575px;}
+    .swiper-container{height: 575px;}
+    .list{padding: 0;}
+    .list-item{width: 13%;}
+    .news,.live,.movie,.disc,.goods,footer{padding: 45px 0;}
+    .profile{padding-top:0 ;}
+    .profile h3{top: -1px;}
+    .news,.live,.movie,.disc{width: 80%;}
+    h4{font-size: 45px;}
+    .acc_di_title{top: -35px;}
+    .go_wrap{
+        width: 90%; grid-template-columns: 40% 40%;
+        justify-content: space-evenly;}
+    .b1{left: -17%;} .b2{right: -17%;}
+    .go_item:last-of-type,.go_item:nth-last-of-type(2),
+    .go_item:nth-last-of-type(3),.go_item:nth-last-of-type(4),
+    .go_item:nth-last-of-type(5){display: none;}
+    .f_sns img{border-radius: 15px;}
+}
+
+@media(max-width:1000px){
+    main{top: 380px;}
+    footer{top: 370px;}
+    .list{padding: 0;}
+    .list-tem{width: 14%;}
+    #head-act{top: 430px;}
+    #head-act.m_fixed{width: 100vw;}
+    .swiper-container{height: 430px;}
+    .ne_img{width: 15%;}
+    .grad{left: 20%;}
+    .ne_p{left: 22%;}
+    .acc_ticket{top: 9px;}
+    .acc_item.is_open .acc_ticket{top: 9px;}
+    .mo_item{display:none;}
+    .mo_item_sp{display: block;}
+    .acc_di_title{left: 23%; top: 0;}
+    .acc_item.is_open .di_info{max-height: 305px;}
+    .di_wrap{justify-content: flex-end; margin-right: 97px;margin-top: 40px;}
+    .go_wrap{justify-content: center;}
+    .b1{left: -25%;} .b2{right: -25%;}
+    /*.profile img{width: 90%;}*/
+    .f_wrap{display: block;}
+
+}
+
+
+@media(max-width:670px){
+.load_item{font-size: 25px;}
+main{top: 560px;}
+footer{top: 510px;}
+.dummy{height: 450px;}
+h1{font-size: 30px;top: 42px;}
+.top_sp{display: block;}
+.acc_content{position: relative;}
+#head-act{
+        width: 100vw;
+        top: -300px;   
+        transition: all 0.3s;     
+        -webkit-transition: .3s;}
+.top_visu{top: 0;}
+.concept{
+    opacity: 1;
+    padding: 20px 0 40px 0;top: 625px;
+    margin: 0;background: #dadada;}
+.c_move{opacity: 1;}
+.name{font-size: 16px;margin: 0;}
+.name_info p{font-size: 14px;}
+.concept span{font-size: 16px;}
+.news,.live,.movie,.disc,footer{margin: 60px auto;}
+        
+#header nav ul li .active{font-size: 18px;}
+.list-item{width: 17%;}
+.list-item:last-child{display: none;}
+.list-item a{font-size: 13px; line-height: 30px;}
+h2{font-size: 25px; top: 36%;}
+h3{font-size: 20px;}
+h4{font-size: 20px; padding-top: 0;}
+h5{font-size: 13px; height: 12px;}
+.news, .live, .movie,.goods, footer {
+    padding: 7px 0;}
+.ne_img{
+    border-radius: 12px;
+    background: #dadada;
+    box-shadow: inset 3px 3px 6px #bfbfbf, 
+    inset -2px -3px 4px #e9e9e9;}
+
+.acc_info{top: -40px!important;max-height: 17px;}
+.acc_item.is_open .acc_info{top: -40px!important;}
+.di_img{width: 55%;}
+.ne_p{font-size: 10px!important; left: 28%!important;}
+.grad{left: 27%!important;}
+.acc_single_title{font-size: 11px!important;}
+.acc_single_title::after{right: 7px!important; top: 35%!important;} 
+
+.acc_tocket img,.di_item img{width: 25%;}
+
+.li_day p{padding: 8px;}
+.li_day span{font-size: 13px;}
+.li_p{font-size: 10px;}
+.acc_ticket{ text-align: center;width: 100%;left: 0;}
+.acc_item.is_open .acc_info {font-size: 13px;}
+
+.movie{width: 100%;}
+.movie h3{width: 80%;}
+.mo_wrap{width: 90%;}
+.disc{padding-bottom: 60px;}
+.acc_di_title{left: 44%; top: -25px;}
+.acc_di_title p{font-size: 14px;}
+.di_title{flex-direction: column; align-items: center;}
+.di_item{text-align: center;}
+.di_info{
+    left: 0; top: 15px; 
+    position: relative; font-size: 10px;}
+.di_wrap{
+    justify-content: center; width: 100%;
+    left: 37%; top: -40px;}
+.goods{position: relative; height: 500px;}
+.go_wrap{grid-template-columns: 80%;}
+.b1{left: -15%;} .b2{right: -15%;}
+.profile h3{padding: 25px 0;}
+
+.f_sns{width: 100%;}
+.f_sns img{border-radius: 13px;}
+}
