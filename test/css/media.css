@@ -104,7 +104,7 @@ h5{font-size: 13px; height: 12px;}
 .acc_single_title{font-size: 11px!important;}
 .acc_single_title::after{right: 7px!important; top: 35%!important;} 
 
-.acc_tocket img,.di_item img{width: 25%;}
+.acc_ticket img,.di_item img{width: 25%;}
 
 .li_day p{padding: 8px;}
 .li_day span{font-size: 13px;}
