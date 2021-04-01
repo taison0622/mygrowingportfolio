@@ -199,7 +199,7 @@ h1{
     position: relative;
     font-family: 'Shippori Mincho', serif;}
     .grad{
-        animation: grad_ac2 0.5s linear 1 forwards;
+        animation: grad_ac2 0.37s linear 1 forwards;
         height: 50px;
         background: linear-gradient(0deg,
          #dadada 10%, #dadada00 40%);
