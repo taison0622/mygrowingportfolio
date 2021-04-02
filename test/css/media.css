@@ -7,16 +7,16 @@
 
 
 @media(max-width:1170px){
-    main{top: 560px;}
-    footer{top:550px ;}
+
     header img{width: 100%;}
     #head-act{top: 575px;}
-    .swiper-container{height: 575px;}
     .list{padding: 0;}
     .list-item{width: 13%;}
     .news,.live,.movie,.disc,.goods,footer{padding: 45px 0;}
     .profile{padding-top:0 ;}
     .profile h3{top: -1px;}
+    .pro_band,.pro_itsu,.pro_taison{padding: 65px 0;}
+    .boxes{width: 35%;}
     .news,.live,.movie,.disc{width: 80%;}
     h4{font-size: 45px;}
     .acc_di_title{top: -35px;}
