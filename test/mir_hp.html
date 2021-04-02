@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/mir_hp.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="css/action.css">
+        <link rel="stylesheet" href="css/swiper-bundle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <script src="jquery-3.5.1.js"></script>
@@ -26,8 +27,13 @@
     <body>
         <div id="loading">
             <div class="load_item">
-                <p>キャッチコピー</p>
-                <p>キャッチコピー</p>
+                <div class="wrap">
+                <p class="jap_catch">天才ではない。</p>
+                <p class="jap_catch">凡人でもない。</p>
+                </div>
+                
+                <p class="eng_catch">Not Genius</p>
+                <p class="eng_catch">Not Ordinary </p>
                 
                 
             </div>
@@ -36,11 +42,11 @@
         <div class="dummy"></div>
          <div class="fixed_item">
              <div class="top_title">
-                 <h1>REPLICA</h1>
+                 <img src="./2021HPitems/logo.png">
              </div>
              <img class="top_sp" src="./2021HPitems/select_c.jpg">
-            <div class="swiper-container">
-                <img src="./2021HPitems/select_a.jpg" class="top_web">
+            <div class="top_photo">
+                <img src="./2021HPitems/select_a.png" class="top_web">
                      
                 
             </div>
@@ -169,6 +175,18 @@
                 <h3 style="border-bottom: 1px solid #a2a2a2;">Movie</h3>
                 <div class="mo_wrap">
                     <iframe width="100%" height="400" class="mo_item"
+                    src="https://www.youtube.com/embed/ej9SEwH76xI" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope;
+                    picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="225" class="mo_item_sp"
+                    src="https://www.youtube.com/embed/ej9SEwH76xI" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope;
+                    picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" class="mo_item"
                     src="https://www.youtube.com/embed/AOsP4-FEp9A" 
                     frameborder="0" allow="accelerometer; autoplay; 
                     clipboard-write; encrypted-media; gyroscope; 
@@ -271,35 +289,84 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="profile" id="sec6">
-                <div class="d1" id="pro_dummy">
-                    <div class="pro_taison">
-                        <p>son</p>
-                        <p>
-                            1996/06/22<br>drums&arts<br>
-                            <a href="#">twitter</a><br>
-                            <a href="#">Instagram</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="d2" id="pro_dummy">
-                    <div class="pro_itsu">
-                        <p>Itsuki</p>
-                        <p>
-                            1998/05/12<br>vocal&arts<br>
-                            <a href="#">twitter</a><br>
-                            <a href="#">Instagram</a>
-                        </p>
-                    </div>
-                </div>
                 <h3>Profile</h3>
-                <div class="pro_wrap">
-                    <img class="pro_photo" src="./2021HPitems/pro_itsu.png" alt="artist_visual">
-                    <img class="pro_photo" src="./2021HPitems/pro_taison.png" alt="artist_visual">
-                    <img class="pro_photo" src="./2021HPitems/pro_fake.png" alt="artist_visual">
-                    <img class="pro_photo" src="./2021HPitems/pro_back.png" alt="artist_visual">
+                <div class="bar_wrap">
+                    <sapn class="pro_bar"></sapn>
                 </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="pro_band">
+                                <p style="margin-bottom: 50px;">REPLÏCA：〈レプリカ〉</p>
+                            <div class="pro_info">
+                                <p>
+                                    幼少の頃から音楽に触れてきた、</p>
+                                <p>
+                                    いわゆる“天才”ではない自分達が
+                                </p>
+                                <p>
+                                    本物を超える瞬間を見せたい。そして
+                                </p>    
+                                <p style="margin-bottom: 50px;">
+                                    それが可能であることを「証明」する。
+                                </p>
+                                <p>
+                                    そんな想いで付けられた 【レプリカ】 というバンド名が
+                                </p>
+                                <p>
+                                    これから数々の常識を覆していく瞬間を
+                                </p>
+                                <p>
+                                    あなたは目撃する…
+                                </p>
+
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pro_itsu">
+                                <p>Itsuki</p>
+                                <p>
+                                    1998/05/12<br>vocal&arts<br>
+                                </p>
+                                <div class="boxes">
+                                    <div class="box_1">
+                                        <a href="#">Instagram</a>
+                                    </div>
+                                    <div class="box_2">
+                                        <a href="#">Twitter</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pro_taison">
+                                <p>son</p>
+                                <p>
+                                    1996/06/22<br>drums&arts<br>
+                                </p>
+                                <div class="boxes">
+                                    <div class="box_1">
+                                        <a href="#">Instagram</a>
+                                    </div>
+                                    <div class="box_2">
+                                        <a href="#">Twitter</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="pro_wrap">
+                        <img class="pro_photo" src="./2021HPitems/pro_back.jpg" alt="artist_visual">
+                    </div>
+                </div>
+          
             </div>
             
 
@@ -343,6 +410,24 @@
             
         </footer>
 <script src="./js_test/test.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      autoplay:{delay:3000,},
+      loop:true,
+      effect: 'fade',
 
+      pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+ 
+    });
+  </script>
     </body>
 </html>
