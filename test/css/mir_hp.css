@@ -342,6 +342,7 @@ h1{
 .swiper-container{
     position: absolute;
     width: 100%;z-index: 9;
+    height: 900px;
 }
 .profile h3{
     z-index: 99;padding-top: 400px;
@@ -388,16 +389,15 @@ h1{
 
 
 .pro_band,.pro_taison,.pro_itsu{
-    background-image: url(../2021HPitems/pro_back.jpg);
+    background-image: url(../2021HPitems/pro_back.png);
     background-size: cover;
     width: 100%;position: absolute;
     height: 500px;
-    color: #dadada;padding-top: 200px;
+    color: #dadada;padding: 100px 0;
     font-size: 25px;}
 .pro_info p{margin: 9px; }
 
 .profile img{width: 100%; margin: 0 auto;}
-.pro_wrap{position: relative; width: 100%;}
 .pro_photo{width: 100%;}
 
 footer{
