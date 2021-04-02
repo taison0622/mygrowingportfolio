@@ -31,17 +31,17 @@
         #dadada 10%, #dadada00 40%);}
 }
 @keyframes load{
-    0%{opacity: 0; transform: translateY(20px); }
-    100%{opacity: 1; transform: translateY(0px);}
+    0%{opacity: 0;  }
+    100%{opacity: 1 ;}
 }
 @-webkit-keyframes load{
-    0%{opacity: 0; transform: translateY(20px);}
-    100%{opacity: 1; transform: translateY(0px);}
+    0%{opacity: 0; }
+    100%{opacity: 1; }
 }
 
 @keyframes loading{
-    0%{opacity: 1; left: 0%;; }
-    100%{opacity: 0; left: -150%;;}
+    0%{left: 0%;; }
+    100%{left: -150%;;}
 }
 @-webkit-keyframes loading{
     0%{opacity: 1; left: 0%;; }
