@@ -55,7 +55,7 @@
     animation: load 0.45s forwards linear ;
     -webkit-animation: load 0.45s forwards linear ;}
 .eng_catch{
-    padding-left: 27%;
+    padding-left: 33%;
     width: 50%;
     margin: 0 auto!important;
     text-align: left;
@@ -68,7 +68,8 @@
 body{
     background:#dadada ; margin: 0;
     overflow-x: hidden;}
-.dummy{position: absolute; height: 1450px;}
+
+.dummy{height: 2000px;}
 .top_visu{position: relative;}
 .name{font-size: 22px; }
 .name_info p{font-size: 20px; margin: 5px 0;}
@@ -86,14 +87,11 @@ main{
     background: #dadada; z-index: 99; 
     position: relative;}
 .fixed_item{
+    margin: 0;
     position: relative; top: 0;z-index: 9;
     font-family: 'bulter';}
 .top_web,.top_sp{width: 100%;}
 .top_sp{display: none;}
-.top_title{height: 105px; text-align: center;}
-.top_title img {
-    position: relative;
-    width: 40%;padding: 42px;}
 
 h1{
     position: relative;top: 11px;z-index: 95;
@@ -101,14 +99,14 @@ h1{
     font-size: 80px;text-align: center;
     color: #000000;}
 
-.top_photo{width: 100vw; height: 850px;}
+.top_photo{width: 100vw; }
 
 #header nav ul li .active{color: #f4ca8b; font-weight: bold; font-size: 22px;}
 
 .acc_single_title{
     cursor: pointer;
     position: relative;
-    display: flex;
+    display: flex;z-index: 999;
     border-top: solid 1px #a2a2a2;}
 
 .acc_single_title::after{
@@ -164,7 +162,7 @@ h1{
 
 #head-act{
         width: 100%; background: #6293b1; 
-        position: absolute;top: 500px;
+        position: absolute;top: 2000px;
         z-index: 999;}
 #head-act.m_fixed{position: fixed; top: 0;}
 
@@ -232,7 +230,7 @@ h1{
 }
 .li_day{
     text-align: center; padding: 15px 15px; 
-    width: 15%;
+    width: 10%;
    }
 .li_day p{ 
     border-radius: 20px;
@@ -240,7 +238,7 @@ h1{
     box-shadow: inset 6px 6px 7px #bfbfbf, 
                 inset -6px -6px 7px #e9e9e9;
     font-family: 'Lobster', cursive;
-    padding: 15px; display: inline-block;
+    padding: 20%; display: inline-block;
     color:#424242;}
 .li_day span{font-size: 20px;}
 .li_p{font-size: 13px; font-family: 'Shippori Mincho', serif;}
@@ -328,17 +326,9 @@ h1{
     width: 100%; margin: 0 auto;
     text-align: center; position: relative;
     padding-bottom: 80px;}
-.bar_wrap{width: 40%; margin: 0 auto;}    
-.pro_bar{
-    width: 25px;background-color: #dadada;
-    border-radius: 5px;position: absolute;top: 50%;
-    }
-.pro_bar::after{
-    content: "";
-    right: 0;
-    width: 25px;background-color: #dadada;
-    border-radius: 5px;position: absolute;top: 50%;
-}    
+.pro_band_ti{margin-bottom: 50px;}
+
+ 
 .swiper-container{
     position: absolute;
     width: 100%;z-index: 9;
@@ -357,7 +347,7 @@ h1{
     .box_1{
         margin: 31px auto;
         position: relative;
-        padding: 4px 8px;
+        padding: 4px 10px;
         border-top: solid 2px black;
         border-bottom: solid 2px black;
     }
