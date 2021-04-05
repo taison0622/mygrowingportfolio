@@ -6,9 +6,9 @@ window.onload=function(){
 //ヘッダーの位置を取得
 let navPos = jQuery('.dummy').offset().top;
 //ヘッダーの高さを取得
-let navHei = jQuery('.dummy').outerHeight();
+let navHei = $('.dummy').outerHeight();
 let conceptHei = jQuery('.swiper-container').outerHeight();
-
+console.log(navHei);
 //スクロールアクション実行でスクロールTopが850pxを超えたら
 jQuery(window).on('scroll',function(){
     if(navHei<jQuery(this).scrollTop()){
@@ -65,7 +65,7 @@ $(function() {
 		// 各要素のスクロール値を保存
 		for (let key in array) {
 			if ($(key).offset()) {
-				array[key] = $(key).offset().top - 70; // 数値丁度だとずれるので10px余裕を作る
+				array[key] = $(key).offset().top - 60; // 数値丁度だとずれるので10px余裕を作る
 				$globalNavi[key] = $('#header ul li a[href="' + key + '"]');
 			}
 		}
@@ -96,7 +96,7 @@ $(function() {
 		let speed = 500;
 		let href= $(this).attr("href");
 		let target = $(href == "#" || href == "" ? 'html' : href);
-		let position = target.offset().top - 80;
+		let position = target.offset().top - 60;
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
