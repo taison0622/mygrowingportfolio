@@ -39,7 +39,7 @@
     font-family: 'Shippori Mincho';
     text-align: center;
     font-size: 60px;
-    padding: 95px 0;
+    margin: 30vh auto;
     }
 .load_item p{margin: 0;}
 .jap_catch:first-child{
