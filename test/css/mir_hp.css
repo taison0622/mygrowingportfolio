@@ -33,7 +33,7 @@
     
 }
 .loaded{
-    animation: loading 0.25s 2.5s forwards ease-in;
+    animation: loading 0.25s 2.25s forwards ease-in;
     transition: all 0.4s ease-in;}
 .load_item{
     font-family: 'Shippori Mincho';
@@ -49,7 +49,7 @@
     animation: load 0.25s forwards linear ;
     -webkit-animation: load 0.25s forwards linear;}
 .jap_catch:last-child{
-    margin-bottom: 50px !important;
+    margin-bottom: 25px !important;
     transition: all 0.4s ease ;
     transition-delay:0.7s;
     animation: load 0.45s forwards linear ;
@@ -326,7 +326,7 @@ h1{
     width: 100%; margin: 0 auto;
     text-align: center; position: relative;
     padding-bottom: 80px;}
-.pro_band_ti{margin-bottom: 50px;}
+.pro_band_ti{margin-bottom: 50px!important;}
 
  
 .swiper-container{
@@ -379,11 +379,11 @@ h1{
 
 
 .pro_band,.pro_taison,.pro_itsu{
-    background-image: url(../2021HPitems/pro_back.png);
+    background-image: url(../2021HPitems/pro_back.jpg);
     background-size: cover;
     width: 100%;position: absolute;
-    height: 500px;
-    color: #dadada;padding: 100px 0;
+    height: 700px;
+    color: #dadada;padding-top: 200px;
     font-size: 25px;}
 .pro_info p{margin: 9px; }
 
