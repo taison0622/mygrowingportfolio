@@ -56,8 +56,7 @@ $(function() {
 			'#sec3': 0,
 			'#sec4': 0,
 			'#sec5': 0,
-			'#sec6': 0,
-            '#sec7': 0
+			'#sec6': 0
 		}
 
 		let $globalNavi = new Array();
@@ -96,8 +95,27 @@ $(function() {
 		let speed = 500;
 		let href= $(this).attr("href");
 		let target = $(href == "#" || href == "" ? 'html' : href);
-		let position = target.offset().top - 60;
+		let position = target.offset().top - 100;
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
 });
+
+var touch = 'ontouchstart' in document.documentElement || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+
+if(touch) {
+  try {
+    for (var si in document.styleSheets) {
+      var styleSheet = document.styleSheets[si];
+      if (!styleSheet.rules) continue;
+
+      for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+        if (!styleSheet.rules[ri].selectorText) continue;
+
+        if (styleSheet.rules[ri].selectorText.match(':hover')) {
+          styleSheet.deleteRule(ri);
+        }
+      }
+    }
+  } catch (ex) {}
+}
