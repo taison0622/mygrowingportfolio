@@ -2,10 +2,10 @@
     .dummy{height: 1700px;}
     #head-act{top: 1700px;}
     .eng_catch{padding-left: 27%;}
-    .news,.live,.movie,.disc,.goods,footer{padding: 60px 0;}
+    .news,.live,.movie,.disc,.goods{padding: 60px 0;}
     .profile h3{top: -1%;}
     .acc_di_title{top: -45px; left: 20%;}
-
+    footer{padding: 130px 0;}
 }
 
 
@@ -19,7 +19,7 @@
     .news,.live,.movie,.disc,.goods,footer{padding: 45px 0;}
     .news,.live,.movie,.disc{width: 80%;}
     .pro_band,.pro_itsu,.pro_taison{padding: 170px 0;font-size: 23px;height: 450px;}
-    .pro_name{width: 15%;}
+    .pro_name{width: 20%; font-size: 18px;}
     .boxes{width: 35%;}
     h4{font-size: 45px;}
     .acc_di_title{top: -35px;}
@@ -55,7 +55,7 @@
         padding: 95px 0;height: 400px;
     }
     .boxes{width: 60%;}
-
+    .profile span{font-size: 11px;}
     .f_wrap{display: block;}
 
 }
@@ -103,7 +103,9 @@ h5{font-size: 13px; height: 12px;}
 .acc_item.is_open .acc_info{top: -40px!important;}
 .di_img{width: 55%;}
 .ne_p{font-size: 10px!important; left: 28%!important;}
-.grad{left: 27%!important; height: 41.5px;}
+.grad{
+    left: 27%!important; max-height: 41.5px;}
+.acc_item.is_open .grad{max-height: 0;}    
 .acc_single_title{font-size: 11px!important;}
 .acc_single_title::after{right: 7px!important; top: 35%!important;} 
 
@@ -143,8 +145,8 @@ h5{font-size: 13px; height: 12px;}
 .profile a{padding: 4px 15px;}
 .pro_band_ti{margin-bottom: 20px!important;}
 .pro_band, .pro_taison, .pro_itsu{
-    height: 255px;font-size: 12px;
-    padding: 17px 0;}
+    height: 220px;font-size: 12px;
+    padding: 35px 0;}
 .boxes{width: 80%;}
 .box_1{padding: 4px 8px;}
 .box_2{padding: 4px 8px;}
