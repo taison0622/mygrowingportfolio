@@ -139,7 +139,7 @@
     scroll-snap-type: y mandatory;
   }
   :root {
-    --swiper-navigation-size: 120px;
+    --swiper-navigation-size: 80px;
 
     /*
     --swiper-navigation-color: var(--swiper-theme-color);
@@ -156,6 +156,10 @@
     cursor: pointer;
     display: flex;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  }
+  @media(max-width:670px){
+    .swiper-button-prev,
+    .swiper-button-next {opacity: 0.3;}
   }
   .swiper-button-prev:hover,
   .swiper-button-next:hover{
