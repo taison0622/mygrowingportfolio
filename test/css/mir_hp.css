@@ -33,7 +33,7 @@
     
 }
 .loaded{
-    animation: loading 0.25s 2.25s forwards ease-in;
+    animation: loading 0.25s 2s forwards ease-in;
     transition: all 0.4s ease-in;}
 .load_item{
     font-family: 'Shippori Mincho';
@@ -41,15 +41,17 @@
     font-size: 60px;
     margin: 30vh auto;
     }
+.wrap{font-family: "游ゴシック", "Yu Gothic";}
 .load_item p{margin: 0;}
 .jap_catch:first-child{
+    margin-bottom: 15px;
     transition: all 0.4s ease ;
     transition-delay:0.4s;
 
     animation: load 0.25s forwards linear ;
     -webkit-animation: load 0.25s forwards linear;}
 .jap_catch:last-child{
-    margin-bottom: 25px !important;
+    margin-bottom: 40px !important;
     transition: all 0.4s ease ;
     transition-delay:0.7s;
     animation: load 0.45s forwards linear ;
@@ -57,7 +59,7 @@
 .eng_catch{
     padding-left: 33%;
     width: 50%;
-    margin: 0 auto!important;
+    margin: 0 auto 10px auto!important;
     text-align: left;
     font-size: 43px;
     transition: all 0.4s ease;
@@ -214,7 +216,7 @@ h1{
     font-family: 'Shippori Mincho', serif;}
     .grad{
         animation: grad_ac2 0.37s linear 1 forwards;
-        height: 50px;
+        height: 50px;transition: all 0.5s;
         background: linear-gradient(0deg,
          #dadada 10%, #dadada00 40%);
         position: absolute;
@@ -262,7 +264,7 @@ h1{
 .movie h3{
     width: 100%;
     margin: 0 auto;}
-
+/*
 .disc{
     width: 65%; margin: 0 auto; height: 500px;
     padding-bottom: 40px;}
@@ -300,7 +302,7 @@ h1{
     transform: translateY(-50%) rotate(135deg);
     transition: all 0.2s ease-in-out;
 }
-
+*/
 .goods{
     width: 100%; text-align: center;
     position: relative; background: #6293b1;
@@ -345,6 +347,7 @@ h1{
     text-decoration: none;}
     .boxes{display: flex; width: 33%; margin: 0 auto;}
     .box_1{
+        z-index: 80;
         margin: 31px auto;
         position: relative;
         padding: 4px 10px;
@@ -361,6 +364,7 @@ h1{
         background-color: black;
     }
 .box_2{
+    z-index: 80;
     margin: 31px auto;
     position: relative;
     padding: 4px 9px;
@@ -386,7 +390,10 @@ h1{
     color: #dadada;padding-top: 200px;
     font-size: 25px;}
 .pro_info p{margin: 9px; }
-
+.profile span{font-family: 'Shippori Mincho';font-size: 18px;}
+.pro_name{
+    width: 8%; margin: 0 auto;font-size: 30px;
+    border-bottom: 1px solid #dadada;}
 .profile img{width: 100%; margin: 0 auto;}
 .pro_photo{width: 100%;}
 
@@ -396,7 +403,7 @@ footer{
     padding-bottom: 50px;padding-top: 200px;z-index: 99;}
 .f_sns p{margin: 0;font-family: 'segoe_fake'; color: #000000;}
 .f_mail{background: #000000;padding: 15px 0;
-font-family: 'segoe_fake'; color: #dadada;}
+font-family: 'rafale-ru'; color: #dadada;}
 
 footer a{text-decoration: none;color: #dadada;}
 .f_sns{
