@@ -68,7 +68,7 @@
     -webkit-animation: load 0.65s forwards linear;}
 
 body{
-    background:#dadada ; margin: 0;
+    background:#dadada ; margin: 0 auto;
     overflow-x: hidden;}
 
 .dummy{height: 2000px;}
