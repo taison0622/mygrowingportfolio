@@ -214,14 +214,14 @@ h1{
     left: 14%;
     position: relative;
     font-family: 'Shippori Mincho', serif;}
-    .grad{
-        animation: grad_ac2 0.37s linear 1 forwards;
-        height: 50px;transition: all 0.5s;
-        background: linear-gradient(0deg,
-         #dadada 10%, #dadada00 40%);
-        position: absolute;
-        width: 75%; top: -25px;
-        left: 14%;}
+.grad{
+    animation: grad_ac2 0.37s linear 1 forwards;
+    height: 50px;transition: all 0.3s;
+    background: linear-gradient(0deg,
+        #dadada 10%, #dadada00 40%);
+    position: absolute;
+    width: 75%; top: -25px;
+    left: 14%;}
 .live{width: 65%; margin: 0 auto; height: 500px;}
 .tab_table{
     width: 100%; margin-top: 85px;
