@@ -159,7 +159,7 @@
   }
   @media(max-width:670px){
     .swiper-button-prev,
-    .swiper-button-next {opacity: 0.3;}
+    .swiper-button-next {opacity: 0.3;-webkit-tap-highlight-color: rgba(0,0,0,0); cursor: pointer;}
   }
   .swiper-button-prev:hover,
   .swiper-button-next:hover{
