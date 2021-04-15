@@ -75,7 +75,7 @@ h1{font-size: 30px;top: 42px;}
         top: -300px;   
         transition: all 0.3s;     
         -webkit-transition: .3s;}
-#head-act.m_fixed .list-item{width: 19%;}
+#head-act.m_fixed .list-item{width: 19.5%;}
 .name{font-size: 16px;margin: 0;}
 .name_info p{font-size: 14px;}
 .concept span{font-size: 16px;}
@@ -145,8 +145,8 @@ h5{font-size: 13px; height: 12px;}
 .profile a{padding: 4px 15px;}
 .pro_band_ti{margin-bottom: 20px!important;}
 .pro_band, .pro_taison, .pro_itsu{
-    height: 220px;font-size: 12px;
-    padding: 35px 0;}
+    height: 250px;font-size: 12px;
+    padding: 20px 0;}
 .boxes{width: 80%;}
 .box_1{padding: 4px 8px;}
 .box_2{padding: 4px 8px;}
