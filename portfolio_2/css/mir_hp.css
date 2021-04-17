@@ -163,7 +163,7 @@ h1{
 }
 
 #head-act{
-        width: 100%; background: #6293b1; 
+        width: 100vw; background: #6293b1; 
         position: absolute;top: 2000px;
         z-index: 999;}
 #head-act.m_fixed{position: fixed; top: 0;}
