@@ -1,0 +1,11 @@
+<!-- Lobster-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+@font-face{
+  font-family: 'segoe_fake';
+  src: url('SEGOEPR.TTF') ;
+}
+.font{
+  font-family: 'segoe_fake';
+}
