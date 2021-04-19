@@ -142,6 +142,7 @@ h1{
     max-height: 0; overflow: hidden;
     transition: max-height .3s ease-in-out;}
 .acc_item.is_open .acc_info{max-height: 1000px;position: relative; top: -65px;}
+.acc_item.is_open .ne_info_img{opacity: 1;}
 .acc_item.is_open .grad{animation: grad_ac1 0s linear 1 normal forwards;}
 .acc_item.is_open .acc_ticket{max-height: 150px;position: relative; top: -5px;}
 .acc_item.is_open .acc_more{max-height: 150px;position: relative; top: 0px;}
@@ -163,7 +164,7 @@ h1{
 }
 
 #head-act{
-        width: 100vw; background: #6293b1; 
+        width: 100%; background: #6293b1; 
         position: absolute;top: 2000px;
         z-index: 999;}
 #head-act.m_fixed{position: fixed; top: 0;}
@@ -215,12 +216,14 @@ h1{
     position: relative;
     font-family: 'Shippori Mincho', serif;}
 .ne_info_img{
+    opacity: 0;transition:all 0.2s;
     width: 42%;
     left: 14%;
     position: relative;
 }
+
 .grad{
-    animation: grad_ac2 0.37s linear 1 forwards;
+    animation: grad_ac2 0.45s linear 1 forwards;
     height: 50px;transition: all 0.3s;
     background: linear-gradient(0deg,
         #dadada 10%, #dadada00 40%);
