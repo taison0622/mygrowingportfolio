@@ -3,7 +3,7 @@ body{
    position: relative;
 }
 a{text-decoration: none }
-.bg{height: 100vh; width:100vw; position: fixed; background-image: url(/back.png); background-size: cover; }
+.bg{height: 100vh; width:100vw; position: fixed; background-image: url(../back.png); background-size: cover; }
 
 main{padding:75px 0 450px 0;  z-index: 5;  position: relative;}
 #loading{
