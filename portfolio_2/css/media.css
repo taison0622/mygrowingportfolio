@@ -44,6 +44,7 @@
     #head-act.m_fixed .list-item{width: 12.1%;}
     .grad{left: 15%;}
     .ne_p{left: 15%;}
+    .ne_info_img{width: 35%; left: 28%;}
     .acc_ticket{top: 9px;}
     .acc_item.is_open .acc_ticket{top: 9px;}
     .acc_di_title{left: 23%; top: 0;}
@@ -139,7 +140,9 @@ h5{font-size: 13px; height: 12px;}
     left: 37%; top: -40px;}
 .goods{position: relative; height: 500px;}
 .go_wrap{grid-template-columns: 80%;}
-.b1{left: -10%;} .b2{right: -10%;}
+.b1{left: -10%;} .b2{right: -6%;}
+.b2 h4{margin-top: 0px;}
+.side_bar{top: 40%;}
 .swiper-container{height: 400px;}
 .profile h3{padding: 180px 0 25px 0;}
 .profile a{padding: 4px 15px;}
